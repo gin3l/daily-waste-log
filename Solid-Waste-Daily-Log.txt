@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Solid Waste Landfill Facility Daily Log</title>
+<meta charset="utf-8">
+</head>
+<body>
+	<h2>Municipal Solid Waste Landfill Facility Daily Log of Operations- Form 3</h2>
+	<h6><i>{Log required by OAC 3745-27-19(E)(10)}</i></h6><br>
+<main>
+<form>
+	<fieldset>
+		<legend><b>DAILY LOG</b></legend>
+		<label>Facility Name:</label>
+		<input type=“text” name=“firstname”> 
+				<br>
+		<label>Euiptment in Operation at Facility Today:</label>
+		<input type=“text” name=“operationatfacilitytoday”>
+				<br>
+
+		<label>Facility Opened Today at (time):</label>
+		<select size=“1” name=“time” id=“timeopen”
+				<option>Select time</option>
+					<option value=“12PM”> 12 PM</option>
+					<option value=“1PM”>  1 PM</option>
+					<option value=“2PM”>  2 PM</option>
+					<option value=“3PM”>  3 PM</option>
+					<option value=“4PM”>  4 PM</option>
+					<option value=“5PM”>  5 PM</option>
+					<option value=“6PM”>   6 PM</option>
+					<option value=“7PM”>  7 PM</option>
+					<option value=“8PM”>  8 PM</option>
+					<option value=“9PM”>  9 PM</option>
+					<option value=“10PM”>10 PM</option>
+					<option value=“11PM”>11 PM</option>
+					<option value=“12AM”> 12 AM</option>
+					<option value=“1AM”>  1 AM</option>
+					<option value=“2AM”>  2 AM</option>
+					<option value=“3AM”>  3 AM</option>
+					<option value=“4AM”>  4 AM</option>
+					<option value=“5AM”>  5 AM</option>
+					<option value=“6AM”>  6 AM</option>
+					<option value=“7AM”>  7 AM</option>
+					<option value=“8AM”>  8 AM</option>
+					<option value=“9AM”>  9 AM</option>
+					<option value=“10AM”> 10 AM</option>
+					<option value=“11AM”> 11 AM</option>
+					
+					
+</select>
+				
+	
+		<label> Facility Closed Today at (time):</label>
+			<select size="1" name="time" id=“timeclose”
+				<option>Select time</option>
+					<option value=“12PM”> 12 PM</option>
+					<option value=“1PM”>  1 PM</option>
+					<option value=“2PM”>  2 PM</option>
+					<option value=“3PM”>  3 PM</option>
+					<option value=“4PM”>  4 PM</option>
+					<option value=“5PM”>  5 PM</option>
+					<option value=“6PM”>   6 PM</option>
+					<option value=“7PM”>  7 PM</option>
+					<option value=“8PM”>  8 PM</option>
+					<option value=“9PM”>  9 PM</option>
+					<option value=“10PM”>10 PM</option>
+					<option value=“11PM”>11 PM</option>
+					<option value=“12AM”> 12 AM</option>
+					<option value=“1AM”>  1 AM</option>
+					<option value=“2AM”>  2 AM</option>
+					<option value=“3AM”>  3 AM</option>
+					<option value=“4AM”>  4 AM</option>
+					<option value=“5AM”>  5 AM</option>
+					<option value=“6AM”>  6 AM</option>
+					<option value=“7AM”>  7 AM</option>
+					<option value=“8AM”>  8 AM</option>
+					<option value=“9AM”>  9 AM</option>
+					<option value=“10AM”> 10 AM</option>
+					<option value=“11AM”> 11 AM</option>
+</select>
+					<br>
+		
+
+		<select size=“1” name=“favweather” id=“favweather”>
+		<option><label> List Weather Conditions on this Day:</label></option>
+		<option value=“Sunny”>Sunny</option>
+		<option value=“Rainy”>Rainy</option>
+		<option value=“Cloudy”>Cloudy</option
+		<option value=“Windy”>Windy</option>
+		<option value=“Snowy”>Snow</option>
+		<option value=“Ice”>Ice</option>
+		<option value=“Hail”>Hail</option>
+		<option value=“Foggy”>Foggy</option>
+		<br>
+</select>
+</fieldset>
+</form>
+<br>
+<h3><p> The Facility Operator shall inspect the facility daily for compliance with the applicable regulations including but not limited to the following:</h3></p>
+<h3><p>Place a (checkmark) in the box  next to all aspects of facility operations which have been inspected today. </h3></p>
+
+<form method="post">
+        <fieldset>
+                <legend><h4>3745-27-05 Prohibited Disposal Methods</legend></h4>
+                        <input type="checkbox" name=“method” value=“disposal” />(B)	No Open Burning <br />
+                       
+        </fieldset>
+</form>
+
+
+
+<form method="post">
+        <fieldset>
+                <div><legend><h4>3745-27-19	Operation of a Facility</legend></h4>
+                     	<input type="checkbox" name=“facility” value=“operation” />	(E)(2)(a)	<b>Maintain access roads</b>
+<p style="margin-left: 40px">
+
+			 	<input type="checkbox" name=“facility” value=“operation” />	(b)	Limited access to facility <br />
+			 	<input type="checkbox" name=“facility” value=“operation” />	(c)	Signs posted <br />
+			 	<input type="checkbox" name=“facility” value=“operation” />	(d)	Exclusion of animals  <br /></p>
+				<input type="checkbox" name=“facility” value=“operation” />	(3)(a) <b>Adequate fire equiptment</b> <br />
+<p style="margin-left: 40px">
+
+			 	 <input type="checkbox" name=“facility” value=“operation” />	(b)	Operable and adequate equiptment <br /></p>
+			<input type="checkbox" name=“facility” value=“operation” />	(4)	Improper salvaging <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(5)	Trained employee <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(6)	Preparation for inclement weather <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(7)(a)	<b>Leachate treatment/disposal</b> <br />
+<p style="margin-left: 40px">
+
+			<input type="checkbox" name=“facility” value=“operation” />	   (b)	Phased operation <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	   (c)	Confined unloading <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	   (d)	Separation/control of flammable wastes <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	   (e)	Waste disposed at working face <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(f)(i)	Compacting bulky items <br />
+			<input type="checkbox" name=“facility” value=“operation” />	(ii)	Minimizing dust generation <br /> </p>
+
+			 
+
+
+	<input type="checkbox" name=“facility” value=“operation” />	(8)(a)	<b>NESHAP reg. asbestos disposal</b> <br />
+<p style="margin-left: 40px">
+
+				 <input type="checkbox" name=“facility” value=“operation” />	(b)	Acceptance of liquids <br />
+			 	<input type="checkbox" name=“facility” value=“operation” />	(c)	Acceptance of hazardous waste <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(d)	Acceptance of PCBs <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(e)	Acceptance of infectious waste <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(f)	Acceptance of yard waste <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(g)	Acceptance of scrap tires <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(h)	Acceptance of low level rad. waste <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(i)	Acceptance of semi-solid material w/free 					liquid <br /></p>
+
+			 <input type="checkbox" name=“facility” value=“operation” />	(9)	Control scattered litter <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(10)	Keeping daily logs <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(11)(a)	Daily inspection of 					facility for ponding, erosion, leachate outbreaks <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(F)	Daily cover <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(G)	Intermediate cover <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(H)	Final cover <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(I)	Scales <br />
+			 <input type="checkbox" name=“facility” value=“operation” />	(J)(1)	<b>Surface water diversion</b> <br />
+<p style="margin-left: 40px">
+
+				 <input type="checkbox" name=“facility” value=“operation” />	(2)	Design in operating record <br />
+			 	<input type="checkbox" name=“facility” value=“operation” />	(4)	Surface water monitioring <br /></p>
+			 <input type="checkbox" name=“facility” value=“operation” />	(K)(1)	<b>Leachate control</b> <br />
+<p style="margin-left: 40px">
+
+			 	<input type="checkbox" name=“facility” value=“operation” />	(2)	Lift station back-up pumps <br />
+				 <input type="checkbox" name=“facility” value=“operation” />	(3)	Collection pipe network (inspection) <br /></p>
+			 <input type="checkbox" name=“facility” value=“operation” />	(L)		PCB and hazardous waste prevention <br />
+
+</fieldset>
+</form>
+
+<form method="post">
+        <fieldset>
+                <legend><h4>3745-37-01 License	</legend></h4>
+                        <input type="checkbox" name=“method” value=“disposal” />(A)	Valid license <br />
+</div>                       
+</fieldset>
+</form>
+<br>
+
+<b>Corrective Actions:</b> <br>
+<textarea name=“comments” id=“comments” cols=“80” rows=“4”> Write here </textarea><br>
+
+<label for="meeting">Todays Date : </label><input id=“todays” type="date" value="2016-01-01"/>
+
+<form action="form_action.asp" method="get" name="myForm">
+  eSignature: <input type="text" name="fname"><br>
+  <input type="button" onclick="formSubmit()" value="Send form data!">
+</form>
+</body>
+<footer>
+<b><small>This form should be retained on file for three years for inspection by the local health department, Ohio EPA, or an authorized representative. failure to <br> provide accurate daily operations information may be considered a violation of Ohio Revised Code & 2921.13<br>
+MSW Log-Form 3
+</footer>
+</html>
+</main>
